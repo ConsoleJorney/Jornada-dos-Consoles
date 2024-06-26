@@ -1,0 +1,138 @@
+h1{  
+    color:#FFD700 ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+    font-weight:lighter;
+    
+
+}
+
+
+p{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    color: white
+    
+}
+video{
+    text-align: center;
+}
+body{
+    background-color:#56070c;
+    text-align: center;
+    
+    
+    
+    
+}
+table{
+    color: #FFD700 ;
+    font-size: 20px;
+    margin: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border:0dvb;
+    
+} 
+h2{
+    color:#FFD700 ;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+h3{
+    color: #FFD700 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+ul{ color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+a{color: aqua;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+    color: white;
+}
+    img{
+        text-align: center;
+    }
+
+
+b{
+    color:#FFD700 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+u{
+    color: #FFD700  ;
+}
+i{
+    color:#FFD700 ;
+}
+
+form{ color: white;
+    font-size: 20px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background:white;
+    
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:link{
+    text-decoration: none;
+    
+}
+
+a:visited{
+    text-decoration: none;
+    
+}
+
+.logosite{
+    font-size: 20px;
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar a{
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 40px;
+} 
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .blinking-text {
+    animation: blink 2s infinite;
+  }

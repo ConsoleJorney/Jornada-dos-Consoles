@@ -1,0 +1,32 @@
+    body {
+        background-image: linear-gradient(to right,#56070c,black);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    form{
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+
+    .box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        border-radius: 15px;
+        width: 30%;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    
+    }
+    legend{
+        border: 2px solid #FFD700 ;
+        padding: 10px;
+        text-align: center;
+        background-color: #FFD700 ;
+        border-radius: 5px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
